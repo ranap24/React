@@ -1,0 +1,19 @@
+.main{
+    text-align: center;
+}
+
+.main h1 {
+    color: rgb(95, 44, 49);
+    text-align: center;
+}
+.main p {
+    justify-content: center;
+}
+
+.main p a{
+    text-decoration: none;
+    color :rgb(95, 44, 49)
+}
+.main p a:hover{
+    color: yellow;
+}

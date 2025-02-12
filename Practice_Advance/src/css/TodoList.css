@@ -1,0 +1,47 @@
+.todo_List{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    flex-wrap: wrap;
+}
+
+.todo_single{
+    display: flex;
+    width: 29.5%;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top : 15px;
+    background-image: url("https://img.freepik.com/free-photo/yellow-texture-background-abstract-luxurious_23-2148486713.jpg?t=st=1735892795~exp=1735896395~hmac=7430a7ac6ce1e7265e3a1eb3906ffcf9eef8d152c95a6ae9f3b56ac3494c0e94&w=740");
+}
+
+.todo_single_text{
+    flex: 1;
+    padding: 5px;
+    border: none;
+    font-size: 20px;
+}
+
+.todo_single_text:focus{
+    outline: none;
+}
+
+.todo_icon{
+    margin-left: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+@media(max-width : 700px)
+{
+    .input{
+        width: 95%;
+    }
+
+    .todo_List{
+        width: 95%;
+    }
+
+    .todo_single{
+        width: 100%;
+    }
+}

@@ -1,0 +1,38 @@
+.add {
+    padding : 10px;
+}
+
+.add input{
+    margin-left: 1rem;
+}
+
+nav{
+
+    height: 50px;
+    text-align: center;
+    background-color: rgb(162, 241, 142);
+
+}
+nav li{
+list-style-type: none;
+float: left;
+padding : 8px;
+color : white ;
+height: 75px;   
+
+
+
+}
+
+li a{
+    padding: 8px;
+    color : rgb(17, 16, 16);
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;  
+    display: block;
+}
+
+li a:hover{
+    background-color: azure;
+}
