@@ -1,0 +1,34 @@
+
+
+.content{
+    display: flex;
+    flex-direction: row;
+    margin:0 auto;
+    max-width: 1200px;
+}
+
+.content img{
+    width: 700px;
+    height: 500px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.contentHeading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+.contentButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 4px solid #4A96D2;
+    width: 150px;
+    border-radius : 32px;
+    padding: 0 1rem;
+}
